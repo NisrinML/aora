@@ -135,6 +135,12 @@ module.exports = {
         },
         'back':{
           light:'#291720'
+        },
+        'status':{
+          light:'#170B11'
+        },
+        'border':{
+          light:'#C837A4'
         }
       },
       'drop-shadow-md': {
