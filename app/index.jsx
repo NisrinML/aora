@@ -3,7 +3,7 @@ import { Text, View, ScrollView, Image } from "react-native";
 import { StatusBar } from 'expo-status-bar'
 import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../constants";
-
+import 'react-native-url-polyfill/auto'
 import CustomButton from "../components/CustomButton";
 export default function App() {
     return (
@@ -12,7 +12,7 @@ export default function App() {
             <ScrollView
                 contentContainerStyle={{ flexGrow: 1 }}>
                 <View className="w-full justify-center
-items-center min-h-[85vh] px-4">
+items-center min-h-[90vh] px-4">
                     <Image source={images.logo}
                         className="w-[130px] h-[84px]"
                         resizeMode="contain" />

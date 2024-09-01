@@ -140,7 +140,7 @@ module.exports = {
           light:'#170B11'
         },
         'border':{
-          light:'#C837A4'
+          light:'#CF67B5'
         }
       },
       'drop-shadow-md': {
