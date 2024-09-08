@@ -18,6 +18,7 @@ export const GlobalProvider = ({ children})=>{
             if(res){
                 setIsLoggedIn(true)
                 setUser(res)
+             
             }else{
                 setIsLoggedIn(false)
                 setUser(null)
