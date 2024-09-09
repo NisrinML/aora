@@ -48,7 +48,7 @@ const Create = () => {
   const submit=async()=>{
     if(!form.prompt|| !form.thumbnail || form.title || form.video)
     {
-      Alert.alert('Please fill in all the field.')
+     // Alert.alert('Please fill in all the field.')
     }
     setUploading(true)
     try{
